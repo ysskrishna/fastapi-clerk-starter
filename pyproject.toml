@@ -1,9 +1,36 @@
 [project]
 name = "fastapi-clerk-starter"
-version = "0.1.0"
+version = "1.0.0"
 description = "A starter template for building secure and scalable FastAPI applications with Clerk authentication integration."
 readme = "README.md"
 requires-python = ">=3.12"
+license = { text = "MIT" }
+authors = [
+   {name = "ysskrishna", email = "sivasaikrishnassk@gmail.com"}
+]
+keywords = [
+    "fastapi",
+    "clerk",
+    "authentication",
+    "api",
+    "backend",
+    "security",
+    "jwt",
+    "python"
+    "uv"
+    "ysskrishna"
+]
+classifiers = [
+    "Development Status :: 5 - Production/Stable",
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.12",
+    "Topic :: Software Development :: Libraries :: Python Modules",
+    "Topic :: Internet :: WWW/HTTP :: Dynamic Content",
+    "Topic :: Security :: Cryptography",
+    "Framework :: FastAPI",
+]
 dependencies = [
     "cryptography>=45.0.3",
     "fastapi>=0.115.12",
@@ -13,3 +40,10 @@ dependencies = [
     "sqlalchemy>=2.0.41",
     "uvicorn>=0.34.3",
 ]
+
+[project.urls]
+Homepage = "https://github.com/ysskrishna/fastapi-clerk-starter"
+Documentation = "https://github.com/ysskrishna/fastapi-clerk-starter#readme"
+Repository = "https://github.com/ysskrishna/fastapi-clerk-starter.git"
+Issues = "https://github.com/ysskrishna/fastapi-clerk-starter/issues"
+"Bug Tracker" = "https://github.com/ysskrishna/fastapi-clerk-starter/issues"
