@@ -14,5 +14,6 @@ class User(Timestamp, Base):
     __tablename__ ="users"
 
     user_id = Column(String, primary_key=True, default=str(uuid.uuid4()))
-    clerk_uid = Column(String, index=True, nullable=False)
-    email = Column(String, nullable=False)
+    clerk_uid = Column(String, index=True, unique=True, nullable=False)
+    email = Column(String, index=True, unique=True, nullable=False)
+    name = Column(String, nullable=True)
