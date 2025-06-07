@@ -48,6 +48,11 @@ uv venv
 .venv\Scripts\activate
 uv sync
 ```
+(Optional) To add new packages to your project:
+```bash
+uv add <package-name>
+```
+
 
 3. Set up environment variables:
 Create a `.env` file in the project root using `.env.sample` as reference, and update the .env based on your configuration.
@@ -61,8 +66,8 @@ CLERK_ISSUER=https://<clerk-project-id>.clerk.accounts.dev
 
 1. Create a Clerk project at https://clerk.com
 2. Get your project credentials:
-   - CLERK_JWKS_URL: Found in Clerk Dashboard > API Keys > JWKS URL
-   - CLERK_ISSUER: Found in Clerk Dashboard > API Keys > Frontend API URL
+   - CLERK_JWKS_URL: Found in `Clerk Dashboard > API Keys > JWKS URL`
+   - CLERK_ISSUER: Found in `Clerk Dashboard > API Keys > Frontend API URL`
 3. Add these credentials to your `.env` file
 
 
@@ -129,6 +134,8 @@ Swagger UI documentation is available at: `http://localhost:8001/docs`
 - [Clerk Authentication Overview](https://clerk.com/docs)
 - [JWT.io](https://jwt.io/) - Learn about JSON Web Tokens
 - [JWT Best Practices](https://auth0.com/blog/a-look-at-the-latest-draft-for-jwt-bcp/)
+- [uv Installation](https://docs.astral.sh/uv/getting-started/installation/)
+- [uv Managing Dependencies](https://docs.astral.sh/uv/concepts/projects/dependencies/) - Learn about managing dependencies with uv
 
 ## Contributing
 
