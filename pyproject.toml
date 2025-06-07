@@ -4,4 +4,7 @@ version = "0.1.0"
 description = "A starter template for building secure and scalable FastAPI applications with Clerk authentication integration."
 readme = "README.md"
 requires-python = ">=3.12"
-dependencies = []
+dependencies = [
+    "fastapi>=0.115.12",
+    "uvicorn>=0.34.3",
+]
