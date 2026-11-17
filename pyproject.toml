@@ -16,8 +16,8 @@ keywords = [
     "backend",
     "security",
     "jwt",
-    "python"
-    "uv"
+    "python",
+    "uv",
     "ysskrishna"
 ]
 classifiers = [
